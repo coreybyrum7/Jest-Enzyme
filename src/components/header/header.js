@@ -6,10 +6,10 @@ import './styles.scss';
 
 const Header = (props) => {
     return (
-        <header>
+        <header className="headerComponent" data-test="headerComponent">
             <div className="wrap">
                 <div className="logo">
-                    <img src={Logo} alt="Logo" />
+                    <img className="logoIMG" data-test="logoIMG" src={Logo} alt="Logo" />
                 </div>
             </div>
         </header>
