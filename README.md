@@ -3,15 +3,14 @@
 1. ### [Intro and Setup](#introduction)
 2. ### [Component Testing](#testing-components)
 3. ### [Prop Types Testing](#testing-prop-types)
-4. ### [Redux](#redux-and-its-implementation)
+4. ### [Redux and It's Implementation](#redux)
 5. ### [Connected Components](#testing-with-connected-components)
 6. ### [Simulating Events](#testing-with-simulated-events)
 
 #
-
 ## ***Introduction***
 
-It's extremely important we write well tested code. Many companies believe in TDD, a test driven development approach. Testing will promote a coding standard between developers and code reusability with modularity. We will be focusing on unit and integration tests. 
+It's extremely important we write well tested code. Many companies believe in TDD, a test driven development approach. Testing will promote a coding standard between developers as well as code reusability and modularity. The scope of our testing is currently focused on unit and integration tests. 
 
 This project was created using `create-react-app`. After cloning to your local machine, please view the package.json file.
 
@@ -20,6 +19,7 @@ This project was created using `create-react-app`. After cloning to your local m
     "enzyme-adapter-react-16": "^1.15.1",
     "jest": "^24.9.0",
     "jest-enzyme": "^7.1.2",
+    "prop-types": "^15.7.2",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -33,6 +33,8 @@ Here, you can see the packages we're going to be working with. Run `npm install`
 [Enzyme Adapters](https://www.npmjs.com/package/enzyme-adapter-react-16) are provided by Enzyme. They provide compatibility with the different React versions.
 [Jest](https://jestjs.io/en/) is a JavaScript testing framework built and maintained by the team at Facebook. Jest is a node-based test runner that runs in the terminal. Jest is well-documented, requires little configuration and can be extended to match your requirements.
 [Jest-Enzyme](https://www.npmjs.com/package/jest-enzyme) provides the compatibility between Jest and Enzyme.
+[Prop-Types](https://github.com/facebook/prop-types) Prop types are a great way to validate the data types of the props passed to your component. They are also a great way to document a component.
+[Check-Prop-Types](https://github.com/ratehub/check-prop-types) Manually check PropTypes-compatible proptypes, returning any errors instead of logging them to console.error.
 
 ## Configuration
 In, `src/setupTest.js`, you can see the Enzyme adaptar is created and initialized for the application.
@@ -71,9 +73,13 @@ If you want to test children rendering with less overhead than mount and you are
 
 #
 ## ***Testing Prop Types***
+Prop types are a great way to validate the data types of the props passed to your component. They are also a great way to document a component.
 
+Facebook maintains and delivers a native dependency `prop-types` for runtime type checking in React apps.
+
+React is very strict on types.
 #
-## ***Redux and It's Implementation***
+## ***Redux***
 
 #
 ## ***Testing Connected Components***
