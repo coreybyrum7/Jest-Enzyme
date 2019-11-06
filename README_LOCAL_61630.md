@@ -120,3 +120,4 @@ Using HTTP requests with Axios. Mocking a request with Moxios. See /_integration
 Get started by running the following command,
     npm test
 The current structure pairs test files adjacent to the component files.
+
