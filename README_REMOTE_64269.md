@@ -30,15 +30,10 @@ This project was created using `create-react-app`. After cloning to your local m
 Here, you can see the packages we're going to be working with. Run `npm install`, to add these packages to your project.
 
 [Enzyme](https://airbnb.io/enzyme/) is a JavaScript Testing utility for React that makes it easier to test your React Components' output. You can also manipulate, traverse, and in some ways simulate runtime given the output. Enzyme's API is meant to be intuitive and flexible by mimicking jQuery's API for DOM manipulation and traversal.
-
 [Enzyme Adapters](https://www.npmjs.com/package/enzyme-adapter-react-16) are provided by Enzyme. They provide compatibility with the different React versions.
-
 [Jest](https://jestjs.io/en/) is a JavaScript testing framework built and maintained by the team at Facebook. Jest is a node-based test runner that runs in the terminal. Jest is well-documented, requires little configuration and can be extended to match your requirements.
-
 [Jest-Enzyme](https://www.npmjs.com/package/jest-enzyme) provides the compatibility between Jest and Enzyme.
-
 [Prop-Types](https://github.com/facebook/prop-types) Prop types are a great way to validate the data types of the props passed to your component. They are also a great way to document a component.
-
 [Check-Prop-Types](https://github.com/ratehub/check-prop-types) Manually check PropTypes-compatible proptypes, returning any errors instead of logging them to console.error.
 
 ## Configuration
@@ -54,9 +49,6 @@ Launch your React app by running <br>`npm start` <br>from your terminal.
 ## Testing
 In a separate window, if using VS Code, press `CMD + \`, and then run the command <br>
 `npm run test`
-
-I suggest using VS Code. Using terminals within your IDE streamlines development.
-![VS Code FTW](/public/Vs-Code.png)
 #
 
 ##  ***Testing Components***
@@ -114,10 +106,4 @@ A pure function is one that follows the below rules,
 Checking to see if components exist. You can see this type of test within the components folder, .test.js, and with the reducer.test.js file.
 
 ### Integration Tests
-Using HTTP requests with Axios. Mocking a request with Moxios. See /_integrationTests
-
-#
-## Run existing tests
-Get started by running the following command,
-    npm test
-The current structure pairs test files adjacent to the component files.
+Using HTTP requests

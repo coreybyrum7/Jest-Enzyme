@@ -114,6 +114,7 @@ A pure function is one that follows the below rules,
 Checking to see if components exist. You can see this type of test within the components folder, .test.js, and with the reducer.test.js file.
 
 ### Integration Tests
+<<<<<<< HEAD
 Using HTTP requests with Axios. Mocking a request with Moxios. See /_integrationTests
 
 #
@@ -121,3 +122,6 @@ Using HTTP requests with Axios. Mocking a request with Moxios. See /_integration
 Get started by running the following command,
     npm test
 The current structure pairs test files adjacent to the component files.
+=======
+Using HTTP requests
+>>>>>>> 7ab79431b813114093762cd235fae74155e53b20
