@@ -112,8 +112,8 @@ Checking to see if components exist. You can see this type of test within the co
 ### Integration Tests
 Using HTTP requests with Axios. Mocking a request with Moxios. See /_integrationTests
 
-
-### Run existing tests
+#
+## Run existing tests
 Get started by running the following command,
     npm test
 The current structure pairs test files adjacent to the component files.
