@@ -81,6 +81,7 @@ React is very strict on types. The `check-prop-types' package allows us to compa
 
 #
 ## ***Redux***
+Reducers are pure functions. There should be no complex logic within them. Reducers are essentially switch statements. It checks the actions type and returns a new piece of state to update the store.
 
 #
 ## ***Testing Connected Components***
