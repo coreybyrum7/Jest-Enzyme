@@ -52,7 +52,7 @@ Launch your React app by running <br>`npm start` <br>from your terminal.
 
 ## Testing
 In a separate window, if using VS Code, press `CMD + \`, and then run the command <br>
-`npm test`
+`npm run test`
 #
 
 ##  ***Testing Components***
@@ -82,9 +82,11 @@ Prop types are a great way to validate the data types of the props passed to you
 
 Facebook maintains and delivers a native dependency `prop-types` for runtime type checking in React apps.
 
-React is very strict on types.
+React is very strict on types. The `check-prop-types' package allows us to compare props vs. a pre-defined expected props object.
+
 #
 ## ***Redux***
+Reducers are pure functions. There should be no complex logic within them. Reducers are essentially switch statements. It checks the actions type and returns a new piece of state to update the store.
 
 #
 ## ***Testing Connected Components***
@@ -93,7 +95,7 @@ React is very strict on types.
 ## ***Testing with Simulated Events***
 
 #
-## ***Useful information***
+## ***Types of Testing***
 
 ### Unit testing
 Given the nature of our development in creating AEM components, we should be creating primarily pure functions/components.
@@ -105,7 +107,14 @@ A pure function is one that follows the below rules,
 5. Do not overwrite arguments. Arguments are immutable.
 6. Easy to test. Don’t need to mock anything or provide. All a function needs are arguments.
 
+Checking to see if components exist. You can see this type of test within the components folder, .test.js, and with the reducer.test.js file.
+
+### Integration Tests
+Using HTTP requests with Axios. Mocking a request with Moxios. See /_integrationTests
+
+
 ### Run existing tests
 Get started by running the following command,
     npm test
 The current structure pairs test files adjacent to the component files.
+
