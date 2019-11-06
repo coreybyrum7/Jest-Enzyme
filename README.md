@@ -53,6 +53,9 @@ Launch your React app by running <br>`npm start` <br>from your terminal.
 ## Testing
 In a separate window, if using VS Code, press `CMD + \`, and then run the command <br>
 `npm run test`
+
+I suggest using VS Code. Using terminals within your IDE streamlines development.
+ ![VS Code FTW](/public/Vs-Code.png)
 #
 
 ##  ***Testing Components***
