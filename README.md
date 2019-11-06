@@ -55,7 +55,7 @@ In a separate window, if using VS Code, press `CMD + \`, and then run the comman
 `npm run test`
 
 I suggest using VS Code. Using terminals within your IDE streamlines development.
- ![VS Code FTW](/public/Vs-Code.png)
+![VS Code FTW](/public/Vs-Code.png)
 #
 
 ##  ***Testing Components***
