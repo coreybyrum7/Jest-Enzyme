@@ -90,7 +90,7 @@ Reducers are pure functions. There should be no complex logic within them. Reduc
 ## ***Testing with Simulated Events***
 
 #
-## ***Useful information***
+## ***Types of Testing***
 
 ### Unit testing
 Given the nature of our development in creating AEM components, we should be creating primarily pure functions/components.
@@ -101,3 +101,8 @@ A pure function is one that follows the below rules,
 4. No global variables. A function cannot depend on global variables.
 5. Do not overwrite arguments. Arguments are immutable.
 6. Easy to test. Don’t need to mock anything or provide. All a function needs are arguments.
+
+Checking to see if components exist. You can see this type of test within the components folder, .test.js, and with the reducer.test.js file.
+
+### Integration Tests
+Using HTTP requests
