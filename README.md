@@ -47,7 +47,7 @@ Launch your React app by running <br>`npm start` <br>from your terminal.
 
 ## Testing
 In a separate window, if using VS Code, press `CMD + \`, and then run the command <br>
-`npm test`
+`npm run test`
 #
 
 ##  ***Testing Components***
@@ -77,7 +77,8 @@ Prop types are a great way to validate the data types of the props passed to you
 
 Facebook maintains and delivers a native dependency `prop-types` for runtime type checking in React apps.
 
-React is very strict on types.
+React is very strict on types. The `check-prop-types' package allows us to compare props vs. a pre-defined expected props object.
+
 #
 ## ***Redux***
 
@@ -99,8 +100,3 @@ A pure function is one that follows the below rules,
 4. No global variables. A function cannot depend on global variables.
 5. Do not overwrite arguments. Arguments are immutable.
 6. Easy to test. Don’t need to mock anything or provide. All a function needs are arguments.
-
-### Run existing tests
-Get started by running the following command,
-    npm test
-The current structure pairs test files adjacent to the component files.
