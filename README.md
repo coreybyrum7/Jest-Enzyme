@@ -79,6 +79,10 @@ Shallow rendering is useful to constrain yourself to testing a component as a un
 Full rendering. If componentDidMount or componentDidUpdate should be tested, use mount. If you want to test component lifecycle and children behavior, use mount
 8. `render(<MyComponent />)`<br>
 If you want to test children rendering with less overhead than mount and you are not interested in lifecycle methods, use render
+9. `console.log(wrapper.debug());`
+Allows you to print your shallow rendered component to your test terminal.
+10. `.dive()`
+Used for integration style tests alongside the .shallow() method. Dive allows you to bypass Higher Order Components (HOCs), render the code within the component, and then create a wrapper around it. .dive() = .childAt(0).shallow()
 
 #
 ## ***Testing Prop Types***
@@ -94,6 +98,7 @@ Reducers are pure functions. There should be no complex logic within them. Reduc
 
 #
 ## ***Testing Connected Components***
+A great example to test connected components is by creating tests for App.js. In App.js, we're connecting to the Redux store and the other components within the app.
 
 #
 ## ***Testing with Simulated Events***
