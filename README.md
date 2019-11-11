@@ -102,6 +102,8 @@ A great example to test connected components is by creating tests for App.js. In
 
 #
 ## ***Testing with Simulated Events***
+The "Get Posts" button component is a reusable component that allows us to pass a method as props, and on the click event it emits that event to a parent component that once received can dispatch an action, in this case with Redux. We can test a simulated event by testing that the button actually emits a function.
+[Enzyme](https://airbnb.io/enzyme/docs/api/ReactWrapper/simulate.html)  provides a method called `.simulate()` that allows us to simulate an event.
 
 #
 ## ***Types of Testing***
